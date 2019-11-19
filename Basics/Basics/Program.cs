@@ -53,7 +53,22 @@ namespace Basics
         /// 3.Write a method that reads from the console the radius "r" of a circle and prints its perimeter and area.
         /// </summary>
         static void Pb3()
-            
+
+        {
+            Console.WriteLine("If you want to find the perimeter and area of cercle please insert the radius.");
+            double r = double.Parse(Console.ReadLine());
+            double perimeter = 2 * Math.PI * r;
+            double area = Math.PI * (r * r);
+            Console.WriteLine("The area is :  {0}", area );
+            Console.WriteLine("The perimeter is :  {0}", perimeter);
+
+
+
+
+
+
+
+        }
         
     }   
         
